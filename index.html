@@ -108,7 +108,7 @@ layout: default
     <h3>语言属性</h3>
     <p>HTML5规范</p>
     <blockquote>
-      <p>建议html元素加上的lang属性，表明文档的语言。这有助于语音合成工，翻译工具，以确定什么规则来使用。</p>
+      <p>建议html元素加上的lang属性，表明文档的语言。这有助于语音合成工，翻译工具，以确定什么规则来使用。如果我们的网站以后要国际化，就需要根据不同的语言去加载不同的语言渲染页面</p>
     </blockquote>
     <p>阅读参考 <a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-html-element">语言属性规范</a>.</p>
     <p><a href="http://reference.sitepoint.com/html/lang-codes">语言代码列表</a>.</p>
@@ -122,6 +122,7 @@ layout: default
   <div class="col">
     <h3>IE compatibility mode</h3>
     <p>Internet Explorer支持使用文档的兼容性<code>&lt;meta&gt;</code>标记来指定哪些版本的IE浏览器的页面是否应该呈现为。除非情况另有要求，否则，它是最有用的指示IE使用了最新的支持模式的边缘模式。</p>
+    <p>网页头一定要加的代码段（加注版）一行代码解决各种IE兼容问题,IE6,IE7,IE8,IE9,IE10</p>
   </div>
   <div class="col">
     {% highlight html %}{% include html/ie-compatibility-mode.html %}{% endhighlight %}
